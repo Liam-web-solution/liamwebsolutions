@@ -1,0 +1,324 @@
+*{box-sizing: border-box;
+}
+ 
+ body{
+    background-color:#0c1118; 
+    color: #fff; 
+    margin: 0PX;
+    padding: 0PX;
+   
+}
+
+/* HEADER SECTION */
+   .header{  
+   background-color:#0c1118; 
+
+} 
+
+/* Header 1 */
+.header-1{
+background-color: rgb(5, 5, 39);
+box-shadow: 0px 15px 0px rgba(0,0,0,0.3), 0px 11px 8px 0px rgba(0,0,0,0.22);
+
+}
+
+.header-1 #uganda-flag{
+padding: 20px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 20px;
+color: white;
+
+}
+
+.header-1 #uganda-flag img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.header-1 #uganda-flag p{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.nav-links nav ul{
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: right;
+    margin: 0px;
+    padding: 0.5rem;
+}
+
+.nav-links nav ul li{
+    display: inline-block;
+    margin-inline: 0.5rem;
+    padding: 12px;
+}
+
+.nav-links nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    
+}
+
+.nav-links a:hover{
+    color: blue;;
+    padding: 2px;
+    border-radius: 5%;
+}
+
+/* Header 2 */
+.header-2 #image-1 img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding: 4px; 
+    border-radius: 50%;
+}
+
+.header-2 #image-2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0px auto;
+
+}
+
+.header-2 #image-2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    padding: 10px;
+    
+}
+
+/* REST-OF-BODY */
+.rest-of-body{
+    background-color:#20252b;;
+}
+
+/* HERO SECTION */
+.hero{
+    background-image: url(background1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: #f6f7fa;
+    position: relative;
+    background-color: #363b41;
+    padding: 20PX;
+}
+
+.hero > h1{
+    position: absolute;
+    margin: 1em;
+    background: #363b41;
+    padding: 20px;
+    border-radius: 40px;
+    animation-name: dropdown;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+}
+
+@keyframes dropdown{
+    0%{
+        top: -400px;
+        opacity: 0;
+    }
+    
+    100%{
+        top: 60px
+    }
+}
+
+
+/* ABOUT SECTION */
+h2{
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    color: blue;
+    width: 200px;
+    margin: 20px auto 0px;
+    padding: 2px;
+    border-radius: 20px;
+
+}
+
+.about-flex{
+    padding: 2px;
+    font-family: sans-serif;
+    font-weight: 100;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    background-color: #20252b;
+    width: 95%;
+}
+
+.about-flex .introduction{
+    padding: 2px;
+    min-height: 200px;
+    margin: 1rem;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: 1px auto 2px;
+       
+}
+
+.about-flex >.introduction p, h3{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* skills and expertise section */
+#skills-expertise{
+    border: 1px solid black ;
+    margin: 2px;
+    padding: 20px;
+}
+
+.accodion-container{
+    margin: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #39ff14;
+    height: auto;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+}
+
+
+/* PROGRESS LINES */
+.container-pl{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 2px;
+  
+}
+
+h3{
+    color: blue;
+}
+
+.label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.progress-bar {
+    position: relative;
+    width: 80%; 
+    height: 1px;
+     background-color: #ccc; 
+    display: flex;
+    align-items: center;
+  
+}
+
+.progress-html {
+   height: 1px;
+   background-color: rgb(34, 248, 34);
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.progress-css {
+   height: 1px;
+   background-color: rgb(55, 34, 248);
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.progress-tailwindcss {
+   height: 1px;
+   background-color: rgb(248, 84, 34);
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.progress-javascript {
+   height: 1px;
+   background-color: turquoise;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.progress-react {
+   height: 1px;
+   background-color: rgb(245, 245, 17);
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+/* Ambition section */
+.about-flex .ambitions{
+    border: 1px;
+    min-height: 300px;
+    margin: 2px auto 2px;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-flex > .ambitions p{
+    padding-left: 10px;
+
+}
+
+/* FOOTER SECTION */
+footer{
+    background: #000;
+    height: 200px;
+    color: blue;
+}
+
+footer>p{
+    background-color:#0c1118;
+    align-self: center;
+    justify-self: center;
+    padding: 5px;
+    margin-top: 0px;
+    box-shadow: 0px 15px 0px rgba(0,0,0,0.3), 0px 11px 8px 0px rgba(0,0,0,0.22);
+    border-radius: 20px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+
+} 
+
+.icons {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      padding: 0;
+}
+
+.icons a {
+    font-size: 24px;
+    color:rgba(159, 218, 252, 0.5);
+      text-decoration: none;
+}
+
+.icons a:hover{
+    color: rgb(50, 50, 240);
+}

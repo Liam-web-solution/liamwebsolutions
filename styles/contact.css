@@ -1,0 +1,216 @@
+
+*{box-sizing: border-box;
+    }
+    
+body{
+   background-color: #0c1118;
+    width: 98vw;
+    padding: 0PX;
+    margin: 0PX;
+
+}
+   
+
+/* HEADER SECTION */
+
+   .header{  
+   /*  background-color: #f5e7e4; */
+   background-color:#0c1118;
+
+} 
+
+/* Header 1 */
+.header-1{
+background-color: rgb(5, 5, 39);
+box-shadow: 0px 15px 0px rgba(0,0,0,0.3), 0px 11px 8px 0px rgba(0,0,0,0.22);
+
+}
+
+.header-1 #uganda-flag{
+padding: 20px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 20px;
+color: white;
+
+}
+
+.header-1 #uganda-flag img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 5px;
+    padding: 5px;
+
+}
+
+.header-1 #uganda-flag p{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.nav-links nav ul{
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: right;
+    margin: 0px;
+    padding: 0PX;
+}
+.nav-links nav ul li{
+    display: inline-block;
+    margin-inline: 0.5rem;
+    padding: 12px;
+
+}
+
+.nav-links nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    
+}
+
+.nav-links a:hover{
+    color: blue;;
+    padding: 2px;
+    border-radius: 5%;
+}
+
+
+/* Header 2 */
+.header-2 #image-1 img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+.header-2 #image-2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0px auto;
+
+}
+
+.header-2 #image-2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    padding: 10px;
+    
+}
+
+h1{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    color: blue;
+    
+}
+
+.container{
+    margin: 20px;
+align-self: center;
+justify-self: center;
+background-color: rgba(255, 255, 255, 0.9);
+color:black;
+border-radius: 20px;
+box-shadow: 0px 15px 0px rgba(0,0,0,0.3), 0px 11px 8px 0px rgba(0,0,0,0.22);
+
+}
+
+label{
+    padding:5px;
+    margin: 1rem;
+}
+
+input, textarea{
+    padding: 1em;
+    margin:1rem;
+    border-radius: 10px;
+    box-shadow: 0px 15px 0px rgba(0,0,0,0.3), 0px 11px 8px 0px rgba(0,0,0,0.22);
+}
+
+button{
+    display: block;
+    padding: 1rem;
+    
+    margin: 2px;
+    align-self: center;
+    justify-self: center;
+    border-radius: 10px;
+    background: rgb(196, 216, 224);
+    color: black;
+    box-shadow: 0px 15px 0px rgba(0,0,0,0.3), 0px 11px 8px 0px rgba(0,0,0,0.22);   
+
+}
+
+span{
+    color: rgb(240, 131, 131);
+    bottom: 30px;
+    left: 50px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    font-size: 12px;
+    
+}
+
+.location{
+    align-self: center;
+    justify-self: center;
+    color: blue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+footer{
+    background: #000;
+    height: 200px;
+    color: #fff;
+    
+
+}
+
+
+.icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+
+}
+
+.icons a {
+    font-size: 24px;
+    color:rgba(159, 218, 252, 0.5);
+    text-decoration: none;
+
+}
+
+.icons a:hover{
+    color: rgb(50, 50, 240);
+    
+}
+
+footer>p{
+    background-color:#0c1118;
+    align-self: center;
+    justify-self: center;
+    padding: 6px;
+    margin-top: 1em;
+    box-shadow: 0px 15px 0px rgba(0,0,0,0.3), 0px 11px 8px 0px rgba(0,0,0,0.22);
+    border-radius: 20px;
+    color:#fff;
+    text-shadow: 2px 2px 10px black;
+    font-weight: 300;
+    font-size: 13px;
+
+} 

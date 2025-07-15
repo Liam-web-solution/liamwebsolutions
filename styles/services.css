@@ -1,0 +1,323 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #0c1118;
+
+}
+
+/* HEADER SECTION */
+.header{  
+   background-color:#0c1118; 
+
+} 
+
+/* Header 1 */
+.header-1{
+background-color: rgb(5, 5, 39);
+box-shadow: 0px 15px 0px rgba(0,0,0,0.3), 0px 11px 8px 0px rgba(0,0,0,0.22);
+
+}
+
+.header-1 #uganda-flag{
+padding: 20px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 20px;
+color: white;
+
+}
+
+.header-1 #uganda-flag img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.header-1 #uganda-flag p{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.nav-links nav ul{
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: right;
+    margin: 0px;
+    padding: 0.5rem;
+
+}
+
+.nav-links nav ul li{
+    display: inline-block;
+    margin-inline: 0.5rem;
+    padding: 12px;
+
+}
+
+.nav-links nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    
+}
+
+ nav ul li a:hover{
+    color: blue;;
+    padding: 2px;
+    border-radius: 5%;
+
+}
+
+#rest-of-body{
+    background-color: #0c1118;
+    margin-bottom: 0px;
+     
+}
+
+/* hero section */
+ .hero-section{
+    width: 100%;
+    display: block;
+    background-image: url(Hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    
+}
+
+@keyframes grow{
+    0%{
+        padding: 1rem; 
+        left: 50px;
+        opacity: 0;
+    
+    }
+    100%{
+        font-size: 45px;
+        left: 400px;
+        opacity: 1;
+    }
+
+}
+
+h1{
+    display: flex;
+    margin-top: 2px;
+    padding-top: 2px;
+    animation-direction: alternate;
+    animation-name: grow;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    color: white;
+    text-shadow: 2px 2px 5px #000;
+    
+}
+
+/* INTRO, BUSINESS AND LEADERSHIP, INSTITUTIONS */
+.intro{
+    background-image: linear-gradient(#022150,#011636, #0c1118cb,#0c1118);
+    padding: 1rem;
+    border: black solid ;
+    border-radius: 20px;
+    display: block;
+    margin: 5px auto 2px;
+    max-width:  1400px;
+    color: #fff;
+
+}
+
+ .business > h2, .leader h2{
+    text-shadow: 2px 2px 5px #000;
+    padding: 5px;
+    max-width: 1400px;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+    background-image:linear-gradient(to right, #2d77e6, #032455, #000a1a) 
+
+}
+
+.intro>h2{
+    text-shadow: 2px 2px 5px #000;
+    background-image:linear-gradient(to right, #2d77e6, #032455, #000a1a) ;
+    padding: 5px;
+    max-width: 250px;
+    border-radius: 12px;
+    text-align: center;
+
+}
+
+.institution h2{
+    text-shadow: 2px 2px 5px #000;
+    padding: 5px;
+    max-width: 600px;
+    border-radius: 12px;
+    text-align: center;
+    background-image:linear-gradient(to right, #2d77e6, #032455, #000a1a) ;
+    color: #fff;
+     
+}
+
+
+/* flex for business and politics */
+.business-leader{
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 98vw;
+    flex-wrap: wrap;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.business{
+    background-color:#0c11180c;
+    color: #fff;
+    padding: 5px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 0px rgba(0,0,0,0.3), 0px 11px 8px 0px rgba(0,0,0,0.22);
+    
+}
+
+.business >img{
+    width: 90%;
+    padding-left: 5px;
+}
+
+.leader {
+    border-radius: 20px;
+    width: 400px;
+    position: relative;
+    box-shadow: 0px 15px 0px rgba(0,0,0,0.3), 0px 11px 8px 0px rgba(0,0,0,0.22);
+    background-color: #0c11181e;
+    color: #fff;
+
+}
+
+.leader > p{
+    padding: 10px;
+}
+
+/* animation  */
+@keyframes bobi{
+    0%{
+        left: 100%;
+
+    }
+    100%{
+        right: 90%;
+    }
+}
+
+
+#ontop{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    top: 60px;
+    left: 50px;
+    animation-duration: 5s;
+    animation-name: bobi;
+    animation-iteration-count: 5;   
+}
+
+.leader > #nup{
+    width: 90%;
+    padding-left: 5px;
+
+}
+
+.institution{
+    display: block;
+    border-radius: 10px;
+    color: #fff;
+    max-width: 1400px;
+    padding: 2px;
+    margin: 5px auto 2px;
+    align-items: center;
+    justify-content: center;
+    border-left: #000 solid 1px;
+    border-right: #000 solid 1px;
+    border-bottom: #000 solid 4px;
+    box-shadow: 0px 15px 0px rgba(0,0,0,0.3), 0px 11px 8px 0px rgba(0,0,0,0.22);
+
+}
+
+.hospital-school{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 75%;
+    padding: 8px;
+    
+}
+
+.hospital-school> img{
+    width: 315px;
+    height: 290px;
+    border-radius: 20px;
+    
+} 
+
+ .institution > p{
+    margin: 2px 10px;
+    padding: 2px;
+
+ }
+
+/* FOOTER SECTION */
+footer{
+    background: #000;
+    height: 200px;
+    color:blue;
+
+}
+
+footer>p{
+    background-color:#0c1118;
+    align-self: center;
+    justify-self: center;
+    padding: 5px;
+    margin-top: 5px;
+    box-shadow: 0px 15px 0px rgba(0,0,0,0.3), 0px 11px 8px 0px rgba(0,0,0,0.22);
+    border-radius: 20px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    
+} 
+
+/* social mwdia icons */
+.icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+
+}
+
+.icons a {
+    font-size: 24px;
+    color:rgba(159, 218, 252, 0.5);
+    text-decoration: none;
+
+}
+
+.icons a:hover{
+    color: rgb(50, 50, 240);
+
+}
+
+
+

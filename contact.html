@@ -1,0 +1,136 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="The best website designer in Kampala Uganda">
+    <meta name="keywords" content="best website designer, website developer Wakiso, tiktok, google, internet, facebook, Kampala, Uganda, East Africa, Africa, Kara Ivan" >
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/contact.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Liam Website Solution Contact</title>
+</head>
+    
+<body style="font-family: Arial, Helvetica, sans-serif;">
+ <!-- HEADER SECTION -->
+  <div class="header">
+    <div class="header-1">
+      <div id="uganda-flag">
+        <figure>
+          <img src="images/flag.png" alt="flag" title="Uganda-flag" loading="lazy">
+        </figure>
+          <p>Liam web solution Uganda</p>
+      </div>
+
+      <!-- navigation links -->
+      <div class="nav-links">
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html" >About</a>
+            </li>
+
+            <li>
+              <a href="services.html">Services</a>
+            </li>
+
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <!-- Manin container section -->
+  <div class="header-container">
+    <h1> Contact us</h1>      
+    <div class="icon-container">
+      <ul class="icons">
+        <li><a href="https://wa.me/256771981575" target=" blank" class="fa fa-whatsapp" title="WhatsApp"></a></li>
+        <li><a href="mailto:kharivan3@gmail.com" class="fa fa-envelope-o" title="E-mail"></a></li>
+        <li><a href="https://www.facebook.com/kara.ivan.3" class="fa fa-facebook" title="Facebook"></a></li>
+        <li><a href="https://www.instagram.com/stories/ivankharofficial/3670066084674060348?utm_source=ig_story_item_share&igsh=MWdyYW1qd2VlOHJhaw==" class="fa fa-instagram" title="Instagram"></a></li>
+        <li><a href="#" class="fa fa-twitter" title="Twitter"></a></li>
+        
+      </ul>
+    </div>
+
+    <div class="container">
+        
+      <form action="mailto:kharivan3@gmail.com" method="POST" id="form">
+      <p>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" onkeyup=" validatefirstName()">
+        <span id="firstName-error"></span>
+      </p>
+
+      <p>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" onkeyup=" validatelastName()">
+        <span id="lastName-error"></span>
+      </p>
+
+      <p>
+        <label for="tel">Tel:</label>
+        <input type="tel" id="tel" name="tel" onkeyup="validatephone()">
+        <span id="phone-error"></span>
+      </p>
+
+      <p>
+        <label for="message">Message:</label>
+        <br>
+        <textarea name="message" id="message" rows="6" cols="30"  placeholder="Type your message here..." onkeyup="validatemessage()"></textarea>
+        <span id="message-error"></span>
+      </p>
+
+      <button type="submit" id="btn"> submit </button>
+
+      </form>
+
+    </div>
+
+    <!-- physical location section -->
+    <div class="location">
+      <hr>
+      <h2>How to find us</h2>
+      <p> Gayaza town, Kasangati town council,</p>
+      <p> Mutasa kaffero house, ground Floor, Wakiso</p>
+      
+      <hr>
+    </div>  
+  </div>
+   
+  <script src="/htmls/contact.js"></script>
+
+  <!-- footer section -->
+  <footer>   
+    <p>📞: +256-771- 981-575</p>   
+    <div class="icon-container">
+      <ul class="icons">
+        <li><a href="https://wa.me/256771981575" target=" blank" class="fa fa-whatsapp" title="WhatsApp"></a></li>
+        <li><a href="mailto:kharivan3@gmail.com" class="fa fa-envelope-o" title="E-mail"></a></li>
+        <li><a href="https://www.facebook.com/kara.ivan.3" class="fa fa-facebook" title="Facebook"></a></li>
+        <li><a href="https://www.instagram.com/stories/ivankharofficial/3670066084674060348?utm_source=ig_story_item_share&igsh=MWdyYW1qd2VlOHJhaw==" class="fa fa-instagram" title="Instagram"></a></li>
+        <li><a href="#" class="fa fa-twitter" title="Twitter"></a></li>
+       
+      </ul>
+     
+    </div>
+     <p>&lt; &lt; ©<i id="year"></i> All Rights Reserved LWS &gt; &gt;</p>
+    <script>
+       const currentYear = new Date().getFullYear();
+       document.getElementById("year").innerHTML = currentYear;
+    </script>
+    <p>Developed by Kara Ivan Liam</p>
+  
+
+  </footer>
+        
+</body>       
+
+
+    
