@@ -125,7 +125,7 @@ color: white;
     animation-name: dropdown;
     animation-fill-mode: forwards;
     animation-duration: 5s;
-    animation-iteration-count: 5;
+    animation-iteration-count: 10;
 }
 
 @keyframes dropdown{
@@ -142,20 +142,24 @@ color: white;
 
 /* ABOUT SECTION */
 h2{
+    opacity:1;
     justify-content: center;
     align-items: center;
     display: flex; 
-    color: blue;
+    color: #fff;
     width: 200px;
     margin: 20px auto 0px;
     padding: 2px;
     border-radius: 20px;
+    text-shadow: 2px 2px 5px #000;
+     background-image:linear-gradient(to right,  #000a1a, #032455, #000a1a) ;
+
 
 }
 
 .about-flex{
     padding: 2px;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     display: block;
     justify-content: space-evenly;
@@ -176,9 +180,13 @@ h2{
        
 }
 
-.about-flex >.introduction p, h3{
+.about-flex >.introduction p{
     padding-left: 10px;
     padding-right: 10px;
+    line-height: 1.8;
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 /* skills and expertise section */
@@ -198,6 +206,10 @@ h2{
     flex-wrap: wrap;
     width: 85%;
 }
+.accodion-container ul li{
+    line-height: 1.8;
+    opacity: 0.75;
+}
 
 
 /* PROGRESS LINES */
@@ -210,12 +222,26 @@ h2{
 }
 
 h3{
-    color: blue;
+    
+    color: #fff;
+    background-image:linear-gradient(to right, #000a1a, #032455, #000a1a,  #000a1a) ;
+    opacity: 1;
+    min-width: 250px;
+    max-width: 300px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px 5%;
+    text-shadow: 2px 2px 5px #000;
+
 }
 
 .label {
     margin-right: 10px;
-    font-weight: bold;
+    opacity: 0.75
+}
+.pecentage:{
+ opacity:0.7
 }
 
 .progress-bar {
@@ -281,6 +307,8 @@ h3{
 
 .about-flex > .ambitions p{
     padding-left: 10px;
+     opacity:0.65
+ 
 
 }
 
@@ -300,8 +328,11 @@ footer>p{
     box-shadow: 0px 15px 0px rgba(0,0,0,0.3), 0px 11px 8px 0px rgba(0,0,0,0.22);
     border-radius: 20px;
     color: #fff;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 300;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    
 
 } 
 
