@@ -114,14 +114,21 @@ h1{
     
 }
 
+.main{
+    width:80%;
+    align-items:center;
+    margin:10px auto;
+}
+
 .container{
-    margin: 20px;
+min-width:300px;
+max-width:500px
 align-self: center;
 justify-self: center;
-background-color: rgba(255, 255, 255, 0.9);
 color:black;
 border-radius: 20px;
 box-shadow: 0px 15px 0px rgba(0,0,0,0.3), 0px 11px 8px 0px rgba(0,0,0,0.22);
+background-color: #edf2fa11;
 
 }
 
@@ -131,10 +138,13 @@ label{
 }
 
 input, textarea{
+    color: black;
     padding: 1em;
     margin:1rem;
     border-radius: 10px;
     box-shadow: 0px 15px 0px rgba(0,0,0,0.3), 0px 11px 8px 0px rgba(0,0,0,0.22);
+    background-color:rgba(250, 250, 250, 0.855);
+    
 }
 
 button{
@@ -152,7 +162,7 @@ button{
 }
 
 span{
-    color: rgb(240, 131, 131);
+    color: red;
     bottom: 30px;
     left: 50px;
     display: flex;
@@ -166,7 +176,7 @@ span{
     align-self: center;
     justify-self: center;
     color: blue;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-family:Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
