@@ -160,7 +160,7 @@ h2{
 .about-flex{
     padding: 2px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     display: block;
     justify-content: space-evenly;
     align-items: center;
@@ -184,7 +184,7 @@ h2{
     padding-left: 10px;
     padding-right: 10px;
     line-height: 1.8;
-    opacity: 0.9;
+    opacity: 1;
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -208,7 +208,7 @@ h2{
 }
 .accodion-container ul li{
     line-height: 1.8;
-    opacity: 0.75;
+    opacity: 0.8;
 }
 
 
@@ -238,10 +238,10 @@ h3{
 
 .label {
     margin-right: 10px;
-    opacity: 0.75
+    opacity: 0.9;
 }
 .pecentage:{
- opacity:0.7
+ opacity:0.8;
 }
 
 .progress-bar {
@@ -307,7 +307,7 @@ h3{
 
 .about-flex > .ambitions p{
     padding-left: 10px;
-     opacity:0.65
+     opacity:0.7;
  
 
 }
@@ -329,7 +329,7 @@ footer>p{
     border-radius: 20px;
     color: #fff;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.8;
     font-family: Arial, Helvetica, sans-serif;
     
