@@ -206,12 +206,13 @@ h1{
 .leader > p{
     padding: 10px;
     opacity:0.9;
-    line
+     line-height: 1.8;
 }
 
  .business > p{
     padding: 10px;
     opacity: 0.9;
+      line-height: 1.8;
 }
 
 /* animation  */
