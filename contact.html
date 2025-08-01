@@ -64,25 +64,25 @@
         
       <form action="mailto:kharivan3@gmail.com" method="POST" id="form">
       <p>
-        <label for="firstName">First Name:</label>
-        <input type="text" id="firstName" name="firstName" onkeyup=" validatefirstName()">
+       <!--  <label for="firstName">First Name:</label> -->
+        <input type="text" id="firstName" name="firstName" onkeyup=" validatefirstName()"  placeholder="First name">
         <span id="firstName-error"></span>
       </p>
 
       <p>
-        <label for="lastName">Last Name:</label>
-        <input type="text" id="lastName" name="lastName" onkeyup=" validatelastName()">
+       <!--  <label for="lastName">Last Name:</label> -->
+        <input type="text" id="lastName" name="lastName" onkeyup=" validatelastName()"  placeholder="Last name">
         <span id="lastName-error"></span>
       </p>
 
       <p>
-        <label for="tel">Tel:</label>
-        <input type="tel" id="tel" name="tel" onkeyup="validatephone()">
+       <!--  <label for="tel">Tel:</label> -->
+        <input type="tel" id="tel" name="tel" onkeyup="validatephone()"  placeholder="Phone">
         <span id="phone-error"></span>
       </p>
 
       <p>
-        <label for="message">Message:</label>
+       <!--  <label for="message">Message:</label> -->
         <br>
         <textarea name="message" id="message" rows="6" cols="30"  placeholder="Type your message here..." onkeyup="validatemessage()"></textarea>
         <span id="message-error"></span>
