@@ -101,7 +101,7 @@ color: white;
 
 /* REST-OF-BODY */
 .rest-of-body{
-    background-color:#20252b;;
+    background-color:#20252b;
 }
 
 /* HERO SECTION */
@@ -196,6 +196,11 @@ h2{
     padding: 20px;
 }
 
+.linkbtn{
+     background-color:green;
+     padding: 10px;
+ 
+}
 .accodion-container{
     margin: 1.5rem;
     border-radius: 5px;
