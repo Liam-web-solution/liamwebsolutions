@@ -175,7 +175,7 @@ h1{
     width: 98vw;
     flex-wrap: wrap;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .business{
@@ -205,12 +205,13 @@ h1{
 
 .leader > p{
     padding: 10px;
-    opacity:0.65;
+    opacity:0.9;
+    line
 }
 
  .business > p{
     padding: 10px;
-    opacity: 0.6;
+    opacity: 0.9;
 }
 
 /* animation  */
@@ -278,13 +279,15 @@ h1{
  .institution > p{
     margin: 2px 10px;
     padding: 2px;
-    opacity: 0.65;
+    opacity: 0.7;
+    line-height: 1.8;
      
  }
 
 .institution ul li {
     line-height: 1.8;
-    opacity: 0.65;
+    opacity: 0.7;
+    font-weight:350;
  }
 
 /* FOOTER SECTION */
